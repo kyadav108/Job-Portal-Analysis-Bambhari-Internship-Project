@@ -34,16 +34,20 @@ Industry
 Job Description
 Qualification
 Employment Type
+
 ⚙️ Methodology
+
 ✅ 1. Data Collection
 Web scraping using Python and BeautifulSoup
 Pagination-based crawling
 Randomized delays to avoid blocking
+
 ✅ 2. Data Cleaning & Preprocessing
 Removed duplicate records
 Handled missing values
 Standardized inconsistent fields
 Normalized text data
+
 ✅ 3. Feature Engineering
 
 Created analytical features including:
@@ -51,6 +55,7 @@ Created analytical features including:
 ✔ Industry Binning
 ✔ Experience Parsing & Categorization
 ✔ Salary Normalization (LPA Conversion)
+
 ✅ 4. Text Processing (Rule-Based)
 
 Useful information was extracted from free-text job descriptions using:
@@ -65,7 +70,6 @@ Degrees & Qualifications
 Required Experience
 Soft Skills
 Responsibilities
-
 The extracted information was combined into a Must_Have column to create a concise summary of job requirements.
 
 ✅ 5. High-Cardinality Reduction
@@ -83,9 +87,11 @@ NumPy
 Regex
 Excel
 Tableau
+
 📊 Dataset Summary
 Initial Records: 163,188
 Final Cleaned Records: 149,274
+
 📈 Key Analyses Supported
 
 This dataset enables:
@@ -95,11 +101,13 @@ Salary benchmarking
 Industry hiring comparison
 Experience distribution insights
 Geographic hiring trends
+
 🚧 Limitations
 Salary frequently not disclosed
 Skill tags inconsistent across postings
 Highly fragmented job titles
 Scraped data may contain platform-specific bias
+
 🔮 Future Enhancements
 Skill clustering automation
 Salary prediction modeling
