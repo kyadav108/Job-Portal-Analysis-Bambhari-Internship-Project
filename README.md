@@ -1,126 +1,122 @@
-📊 Job Portal Analysis – Web Scraping & Data Processing
+# 📊 Job Portal Analysis – Web Scraping & Data Processing
 
-🔹 Overview
+## 🔹 Overview
+- Analyzed 160K+ real job postings from Indian job portals
+- Focused on hiring trends, salary patterns, skills, and experience requirements
+- Performed large-scale data cleaning, preprocessing, and text analysis
+- Built Tableau dashboard for interactive visualization and insights
 
-This project analyzes the Indian job market using 160K+ real job postings scraped from Naukri.com and TimesJobs. The goal of the project is to uncover hiring trends, skill demand, salary patterns, and experience requirements through large-scale data processing, preprocessing, and rule-based text analysis.
+---
 
-An interactive Tableau dashboard was also created to visualize key insights related to hiring distribution, salary trends, skills in demand, and top hiring locations.
-
-📊 Tableau Dashboard
-
+## 📊 Tableau Dashboard
 🔗 Live Dashboard: [https://public.tableau.com/app/profile/khushi.yadav3650/viz/NaukriJobPostingDashboard_updated/SkillJobProfilesInsights]
 
-🎯 Objectives
--Analyze hiring trends across industries
+---
 
--Identify in-demand skills
+## 🎯 Objectives
+- Analyze hiring trends across industries
+- Identify in-demand skills
+- Study experience-level distribution
+- Normalize salary information
+- Prepare structured datasets for analytics and visualization
 
--Study experience-level distribution
+---
 
--Normalize and evaluate salary patterns
+## 🌐 Data Sources
+Scraped job postings from:
+- Naukri.com
+- TimesJobs
 
--Prepare structured datasets for visualization and analytics
+### Extracted Fields
+- Job Title
+- Company Name
+- Location
+- Experience Required
+- Salary
+- Skills / Tags
+- Industry
+- Job Description
+- Qualification
+- Employment Type
 
-🌐 Data Sources
+---
 
-Job postings were scraped from:
+## ⚙️ Methodology
 
-Naukri.com
+### ✅ Data Collection
+- Web scraping using Python & BeautifulSoup
+- Pagination-based crawling
+- Randomized delays to avoid blocking
 
-TimesJobs
+### ✅ Data Cleaning & Preprocessing
+- Removed duplicate records
+- Handled missing values
+- Standardized inconsistent fields
+- Normalized text data
 
-Extracted Fields:
-      Job Title
-      Company Name
-      Location
-      Experience Required
-      Salary
-      Skills / Tags
-      Industry
-      Job Description
-      Qualification
-      Employment Type
+### ✅ Feature Engineering
+- Industry binning
+- Experience extraction & categorization
+- Salary normalization (LPA conversion)
 
-⚙️ Methodology
+### ✅ Text Processing (Rule-Based)
+Extracted information from job descriptions:
+- Degrees & Qualifications
+- Required Experience
+- Soft Skills
+- Responsibilities
 
-✅ 1. Data Collection
-Web scraping using Python and BeautifulSoup
+Created a `Must_Have` column summarizing key job requirements.
 
-Pagination-based crawling
+### ✅ High-Cardinality Reduction
+Applied grouping techniques on:
+- Industry labels
+- Job titles
+- Skills / Tags
 
-Randomized delays to avoid blocking
+---
 
-✅ 2. Data Cleaning & Preprocessing:
-      Removed duplicate records
-      Handled missing values
-      Standardized inconsistent fields
-      Normalized text data
+## 🛠 Tech Stack
+- Python
+- Pandas
+- NumPy
+- BeautifulSoup
+- Regex
+- Excel
+- Tableau
 
-✅ 3. Feature Engineering
+---
 
-Created analytical features including:
+## 📊 Dataset Summary
+- Initial Records: 163,188
+- Final Cleaned Records: 149,274
 
-      ✔ Industry Binning
-      ✔ Experience Parsing & Categorization
-      ✔ Salary Normalization (LPA Conversion)
+---
 
-✅ 4. Text Processing (Rule-Based)
+## 📈 Key Analyses
+- Skill demand analysis
+- Salary benchmarking
+- Industry hiring comparison
+- Experience distribution
+- Geographic hiring trends
 
-Useful information was extracted from free-text job descriptions using:
-  
-Regex patterns
-Keyword mapping
-Rule-based text classification
+---
 
-Extracted information included:
+## 🚧 Limitations
+- Many salaries were not disclosed
+- Skill tags were inconsistent
+- Highly fragmented job titles
+- Possible platform-specific bias
 
-Degrees & Qualifications
-Required Experience
-Soft Skills
-Responsibilities
-The extracted information was combined into a Must_Have column to create a concise summary of job requirements.
+---
 
-✅ 5. High-Cardinality Reduction
+## 🔮 Future Enhancements
+- Skill clustering automation
+- Salary prediction modeling
+- Time-series hiring trend analysis
+- Advanced KPI dashboards
 
-Applied grouping and binning techniques to manage:
+---
 
-Industry labels
-Job titles
-Skills / Tags
-🛠 Tech Stack
-Python
-BeautifulSoup
-Pandas
-NumPy
-Regex
-Excel
-Tableau
-
-📊 Dataset Summary
-Initial Records: 163,188
-Final Cleaned Records: 149,274
-
-📈 Key Analyses Supported
-
-This dataset enables:
-
-Skill demand analysis
-Salary benchmarking
-Industry hiring comparison
-Experience distribution insights
-Geographic hiring trends
-
-🚧 Limitations
-Salary frequently not disclosed
-Skill tags inconsistent across postings
-Highly fragmented job titles
-Scraped data may contain platform-specific bias
-
-🔮 Future Enhancements
-Skill clustering automation
-Salary prediction modeling
-Trend analysis over time
-
-⭐ Project Value
-
-This project transforms raw job postings into structured market intelligence through large-scale web scraping, data preprocessing, feature engineering, and rule-based text analytics. The analysis helps uncover meaningful insights into hiring trends, salary structures, and evolving skill demands across the Indian job market.
+## ⭐ Project Value
+Transforms raw job postings into structured market intelligence using web scraping, preprocessing, feature engineering, and rule-based text analytics.
