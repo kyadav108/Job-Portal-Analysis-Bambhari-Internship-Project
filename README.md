@@ -12,9 +12,13 @@ An interactive Tableau dashboard was also created to visualize key insights rela
 
 🎯 Objectives
 Analyze hiring trends across industries
+
 Identify in-demand skills
+
 Study experience-level distribution
+
 Normalize and evaluate salary patterns
+
 Prepare structured datasets for visualization and analytics
 
 🌐 Data Sources
