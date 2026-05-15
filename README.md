@@ -114,9 +114,4 @@ Applied grouping techniques on:
 - Skill clustering automation
 - Salary prediction modeling
 - Time-series hiring trend analysis
-- Advanced KPI dashboards
 
----
-
-## ⭐ Project Value
-Transforms raw job postings into structured market intelligence using web scraping, preprocessing, feature engineering, and rule-based text analytics.
