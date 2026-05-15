@@ -26,44 +26,48 @@ Prepare structured datasets for visualization and analytics
 Job postings were scraped from:
 
 Naukri.com
+
 TimesJobs
-Extracted Fields
-Job Title
-Company Name
-Location
-Experience Required
-Salary
-Skills / Tags
-Industry
-Job Description
-Qualification
-Employment Type
+
+Extracted Fields:
+      Job Title
+      Company Name
+      Location
+      Experience Required
+      Salary
+      Skills / Tags
+      Industry
+      Job Description
+      Qualification
+      Employment Type
 
 ⚙️ Methodology
 
 ✅ 1. Data Collection
 Web scraping using Python and BeautifulSoup
+
 Pagination-based crawling
+
 Randomized delays to avoid blocking
 
-✅ 2. Data Cleaning & Preprocessing
-Removed duplicate records
-Handled missing values
-Standardized inconsistent fields
-Normalized text data
+✅ 2. Data Cleaning & Preprocessing:
+      Removed duplicate records
+      Handled missing values
+      Standardized inconsistent fields
+      Normalized text data
 
 ✅ 3. Feature Engineering
 
 Created analytical features including:
 
-✔ Industry Binning
-✔ Experience Parsing & Categorization
-✔ Salary Normalization (LPA Conversion)
+      ✔ Industry Binning
+      ✔ Experience Parsing & Categorization
+      ✔ Salary Normalization (LPA Conversion)
 
 ✅ 4. Text Processing (Rule-Based)
 
 Useful information was extracted from free-text job descriptions using:
-
+  
 Regex patterns
 Keyword mapping
 Rule-based text classification
