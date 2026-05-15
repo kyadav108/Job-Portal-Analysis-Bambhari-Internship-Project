@@ -108,10 +108,4 @@ Applied grouping techniques on:
 - Highly fragmented job titles
 - Possible platform-specific bias
 
----
-
-## 🔮 Future Enhancements
-- Skill clustering automation
-- Salary prediction modeling
-- Time-series hiring trend analysis
 
