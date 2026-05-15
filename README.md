@@ -11,15 +11,15 @@ An interactive Tableau dashboard was also created to visualize key insights rela
 🔗 Live Dashboard: [https://public.tableau.com/app/profile/khushi.yadav3650/viz/NaukriJobPostingDashboard_updated/SkillJobProfilesInsights]
 
 🎯 Objectives
-Analyze hiring trends across industries
+-Analyze hiring trends across industries
 
-Identify in-demand skills
+-Identify in-demand skills
 
-Study experience-level distribution
+-Study experience-level distribution
 
-Normalize and evaluate salary patterns
+-Normalize and evaluate salary patterns
 
-Prepare structured datasets for visualization and analytics
+-Prepare structured datasets for visualization and analytics
 
 🌐 Data Sources
 
